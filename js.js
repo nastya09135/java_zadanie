@@ -16,11 +16,13 @@ console.log(txt2.toLowerCase());
 // Дана строка 'я люблю JS!'. Вырежите из нее слово 
 // 'люблю' и слово 'javascript' тремя разными способами 
 // (через substr, substring, slice).
-let txt3 = 'я люблю JS!';
-console.log(txt3.substr(2,8));
-console.log(txt3.substring(2,10));
-console.log(txt3.slice(2, 10));
-
+let txt3 = 'я люблю javascript!';
+console.log(txt3.substr(2,6));
+console.log(txt3.substring(2,7));
+console.log(txt3.slice(2, 8));
+console.log(txt3.substr(8,10));
+console.log(txt3.substring(8,18));
+console.log(txt3.slice(8, 18));
 
 // Дана строка 'я люблю JS!'. Найдите позицию 
 // подстроки 'люблю'.
